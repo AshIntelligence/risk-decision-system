@@ -1,0 +1,21 @@
+name: System checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Self-check
+        run: python main.py --test
+      - name: Unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Demo smoke test
+        run: python main.py > /tmp/risk-demo.txt
