@@ -1,5 +1,7 @@
 # Risk Decision System
 
+[![System checks](https://github.com/AshIntelligence/risk-decision-system/actions/workflows/tests.yml/badge.svg)](https://github.com/AshIntelligence/risk-decision-system/actions/workflows/tests.yml)
+
 `Python · risk decisioning · policy tradeoffs · human review`
 
 This project combines behavioral, payment and identity signals into explainable **ALLOW / REVIEW / BLOCK** states while keeping policy thresholds separate from signal scoring.
