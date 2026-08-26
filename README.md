@@ -1,7 +1,5 @@
 # Risk Decision System
 
-[![System checks](https://github.com/AshIntelligence/risk-decision-system/actions/workflows/tests.yml/badge.svg)](https://github.com/AshIntelligence/risk-decision-system/actions/workflows/tests.yml)
-
 **[▶ Try the Risk Decision System live](https://ash-intelligence-lab.streamlit.app/?product=fraud-signal-decision-engine)** · **[Explore the full systems lab](https://ash-intelligence-lab.streamlit.app/)**
 
 `Python · risk decisioning · policy tradeoffs · human review`
